@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Product {
     private String name;
+    private Manufacturer manufacturer;
     private Integer barcode;
     private String[] specifications;
     private String color;
@@ -13,8 +14,9 @@ public class Product {
 
     public Product(){}
 
-    public Product(String name, Integer barcode, String[] specifications, String color, Double size, String material, Double price) {
+    public Product(String name, Manufacturer manufacturer, Integer barcode, String[] specifications, String color, Double size, String material, Double price) {
         this.name = name;
+        this.manufacturer = manufacturer;
         this.barcode = barcode;
         this.specifications = specifications;
         this.color = color;
@@ -29,6 +31,14 @@ public class Product {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Manufacturer getManufacturer() {
+        return manufacturer;
+    }
+
+    public void setManufacturer(Manufacturer manufacturer) {
+        this.manufacturer = manufacturer;
     }
 
     public Integer getBarcode() {
