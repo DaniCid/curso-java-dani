@@ -1,2 +1,5 @@
-package com.exercises;public class Main {
+package com.exercises;
+
+public class Main {
+
 }
