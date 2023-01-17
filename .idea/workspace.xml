@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27cf10c-951c-40aa-8928-5800fd6aca3d" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/java-oop/src/main/java/com/exercises/Manufacturer.java" afterDir="false" />
+    <list default="true" id="f27cf10c-951c-40aa-8928-5800fd6aca3d" name="Changes" comment="Manufacturers created + added to products">
+      <change afterPath="$PROJECT_DIR$/java-oop/src/main/java/com/exercises/ProductStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-oop/src/main/java/com/exercises/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-oop/src/main/java/com/exercises/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-oop/src/main/java/com/exercises/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-oop/src/main/java/com/exercises/Product.java" afterDir="false" />
@@ -104,13 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673951104495</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Manufacturers created + added to products">
+      <created>1673958244046</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673958244046</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Product class done" />
     <MESSAGE value="Products created" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="Manufacturers created + added to products" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manufacturers created + added to products" />
   </component>
 </project>

@@ -11,10 +11,11 @@ public class Product {
     private Double size;
     private String material;
     private Double price;
+    private Integer amount;
 
     public Product(){}
 
-    public Product(String name, Manufacturer manufacturer, Integer barcode, String[] specifications, String color, Double size, String material, Double price) {
+    public Product(String name, Manufacturer manufacturer, Integer barcode, String[] specifications, String color, Double size, String material, Double price, Integer amount) {
         this.name = name;
         this.manufacturer = manufacturer;
         this.barcode = barcode;
@@ -23,6 +24,7 @@ public class Product {
         this.size = size;
         this.material = material;
         this.price = price;
+        this.amount = amount;
     }
 
     public String getName() {
@@ -89,16 +91,26 @@ public class Product {
         this.price = price;
     }
 
+    public Integer getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Integer amount) {
+        this.amount = amount;
+    }
+
     @Override
     public String toString() {
         return "Product{" +
                 "name='" + name + '\'' +
+                ", manufacturer=" + manufacturer +
                 ", barcode=" + barcode +
                 ", specifications=" + Arrays.toString(specifications) +
                 ", color='" + color + '\'' +
                 ", size=" + size +
                 ", material='" + material + '\'' +
                 ", price=" + price +
+                ", amount=" + amount +
                 '}';
     }
 }
