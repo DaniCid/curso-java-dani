@@ -14,13 +14,13 @@ public class Product {
     public Product(){}
 
     public Product(String name, Integer barcode, String[] specifications, String color, Double size, String material, Double price) {
-        this.setName(name);
-        this.setBarcode(barcode);
-        this.setSpecifications(specifications);
-        this.setColor(color);
-        this.setSize(size);
-        this.setMaterial(material);
-        this.setPrice(price);
+        this.name = name;
+        this.barcode = barcode;
+        this.specifications = specifications;
+        this.color = color;
+        this.size = size;
+        this.material = material;
+        this.price = price;
     }
 
     public String getName() {
