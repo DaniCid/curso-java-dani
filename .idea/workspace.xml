@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27cf10c-951c-40aa-8928-5800fd6aca3d" name="Changes" comment="Company exercise done. Created classes Company, Car &amp; Employee.">
+    <list default="true" id="f27cf10c-951c-40aa-8928-5800fd6aca3d" name="Changes" comment="Company countCars method done. Counts all the unique cars that Employees have access to.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/CarColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/CarColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/CarModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/CarModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674165167767</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Company countCars method done. Counts all the unique cars that Employees have access to.">
+      <created>1674167113689</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674167113689</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +149,7 @@
     <MESSAGE value="done" />
     <MESSAGE value="Manufacturers created + added to products" />
     <MESSAGE value="Company exercise done. Created classes Company, Car &amp; Employee." />
-    <option name="LAST_COMMIT_MESSAGE" value="Company exercise done. Created classes Company, Car &amp; Employee." />
+    <MESSAGE value="Company countCars method done. Counts all the unique cars that Employees have access to." />
+    <option name="LAST_COMMIT_MESSAGE" value="Company countCars method done. Counts all the unique cars that Employees have access to." />
   </component>
 </project>

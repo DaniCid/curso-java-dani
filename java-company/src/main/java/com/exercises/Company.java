@@ -50,16 +50,12 @@ public class Company {
                 ", shares=" + shares +
                 '}';
     }
+
     public int countCars() {
-        int total = 0;
-        Set<ArrayList<Car>> uniqueCars = new HashSet<>();
+        Set<Car> cars = new HashSet<>();
 
         for (Employee employee : employees)
-            uniqueCars.add(employee.getCars());
-
-        for (ArrayList<Car> list : uniqueCars)
-            total += list.size();
-
-        return total;
+            cars.addAll(employee.getCars());
+        return cars.size();
     }
 }
