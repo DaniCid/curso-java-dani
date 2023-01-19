@@ -38,7 +38,6 @@ public class Main {
 
         stockPrice = calculateStockPrice(products);
         System.out.println("Stock Price: " + stockPrice);
-
     }
 
 
