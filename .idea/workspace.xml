@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27cf10c-951c-40aa-8928-5800fd6aca3d" name="Changes" comment="Manufacturers created + added to products">
-      <change afterPath="$PROJECT_DIR$/java-company/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/CarColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/CarModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f27cf10c-951c-40aa-8928-5800fd6aca3d" name="Changes" comment="Company exercise done. Created classes Company, Car &amp; Employee.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-oop/src/main/java/com/exercises/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-oop/src/main/java/com/exercises/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/CarColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/CarColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/CarModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/CarModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-company/src/main/java/com/exercises/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673958244046</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Company exercise done. Created classes Company, Car &amp; Employee.">
+      <created>1674165167767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674165167767</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,6 +144,7 @@
     <MESSAGE value="Products created" />
     <MESSAGE value="done" />
     <MESSAGE value="Manufacturers created + added to products" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manufacturers created + added to products" />
+    <MESSAGE value="Company exercise done. Created classes Company, Car &amp; Employee." />
+    <option name="LAST_COMMIT_MESSAGE" value="Company exercise done. Created classes Company, Car &amp; Employee." />
   </component>
 </project>

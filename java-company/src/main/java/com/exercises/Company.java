@@ -1,6 +1,8 @@
 package com.exercises;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Company {
     private String name;
@@ -47,5 +49,17 @@ public class Company {
                 ", employees=" + employees +
                 ", shares=" + shares +
                 '}';
+    }
+    public int countCars() {
+        int total = 0;
+        Set<ArrayList<Car>> uniqueCars = new HashSet<>();
+
+        for (Employee employee : employees)
+            uniqueCars.add(employee.getCars());
+
+        for (ArrayList<Car> list : uniqueCars)
+            total += list.size();
+
+        return total;
     }
 }
